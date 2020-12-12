@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2020_12_12_215057) do
   create_table "pets", force: :cascade do |t|
     t.string "name"
     t.string "species"
-    t.string "temperment"
+    t.string "temperament"
     t.integer "owner_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
