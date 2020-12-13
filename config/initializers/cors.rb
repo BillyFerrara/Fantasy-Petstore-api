@@ -5,6 +5,8 @@
 
 # Read more: https://github.com/cyu/rack-cors
 
+
+# Since its a private app we can set origins to '*' otherwise we would want to specify a specific origin URL
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
     origins '*'
